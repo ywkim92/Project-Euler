@@ -1,0 +1,2 @@
+In[1]:= A= IntegerDigits[28433*2^7830457+1]; FromDigits[ Catch[A[[-10;;-1]]] ] 
+Out[1]= 8739992577
