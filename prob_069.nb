@@ -1,0 +1,4 @@
+In[1]:= max = 2; For[n = 2, n < 1000001, n++, If[ n/EulerPhi[n] > max/EulerPhi[max], max = n ]]; max
+Out[1]= 510510
+In[2]:= MaximalBy[ Range[10^6], #/EulerPhi[#]& ]
+Out[2]= {510510}
