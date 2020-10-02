@@ -1,0 +1,5 @@
+In[1]:= tri[n_]:= n*(n-1)/2                                                                                             
+In[2]:= i=1; While[ Length[ Divisors[tri[i]] ] < 500, i++ ]; i                                                             
+Out[2]= 12376
+In[3]:= tri[%2]                                                                                                         
+Out[3]= 76576500
