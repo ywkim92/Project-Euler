@@ -1,0 +1,2 @@
+In[1]:= i = 1; While[ Length[IntegerDigits[Fibonacci[i]]] < 1000, i++ ]; i
+Out[1]= 4782
