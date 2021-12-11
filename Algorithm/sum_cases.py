@@ -1,3 +1,17 @@
+'''
+example input
+5
+
+example output
+4+1
+3+2
+3+1+1
+2+2+1
+2+1+1+1
+1+1+1+1+1
+6
+'''
+
 num, =map(int, input().split())
 def pick(n, picked, to_pick=0):
     global counts
